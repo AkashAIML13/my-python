@@ -1,0 +1,6 @@
+pi=3.14
+radius=float(input("enter the radius"))
+area_of_the_circle=pi*radius**2
+print("area of the circle is",area_of_the_circle)
+enter the radius2.5
+area of the circle is 19.625

@@ -1,0 +1,10 @@
+#largest of two number
+a=int(input("enter a number"))
+b=int(input("enter a number"))
+if a>b:
+ print("the largest number is",a)
+elif b>a:
+  print("the largest number is",b)
+enter a number10
+enter a number25
+the largest number is 25

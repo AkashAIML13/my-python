@@ -1,0 +1,16 @@
+# Divisibility Test Write a Python program to check if a number is divisible by both 3 and 5.
+
+
+num = int(input("Enter an integer: "))
+
+
+if num % 3 == 0 and num % 5 == 0:
+    print(f"The number {num} is divisible by both 3 and 5.")
+elif num % 3 == 0:
+    print(f"The number {num} is divisible by 3 but not 5.")
+elif num % 5 == 0:
+    print(f"The number {num} is divisible by 5 but not 3.")
+else:
+    print(f"The number {num} is neither divisible by 3 nor by 5.")
+Enter an integer: 30
+The number 30 is divisible by both 3 and 5.

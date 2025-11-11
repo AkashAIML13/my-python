@@ -1,0 +1,11 @@
+for demonslayer in range(1,10):
+  print("demonslayer")
+odd number
+even number
+odd number
+even number
+odd number
+even number
+odd number
+even number
+odd number

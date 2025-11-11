@@ -1,0 +1,14 @@
+#largest of three number
+a=int(input("enter a number"))
+b=int(input("enter a number"))
+c=int(input("enter a number"))
+if b<a>c:
+   print("the largest number is",a)
+elif a<b>c:
+     print("the largest number is",b)
+elif a<c>b:
+     print("the largest number is",c)
+enter a number1234
+enter a number7654
+enter a number239
+the largest number is 7654

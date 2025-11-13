@@ -1,0 +1,9 @@
+def even_or_odd(a):
+  if a%2==0:
+    print("even")
+  else:
+   print("odd")
+even_or_odd(int(input("enter a number")))
+import mymodule_py
+enter a number5
+odd
